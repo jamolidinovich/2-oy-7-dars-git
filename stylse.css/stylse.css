@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Noto Sans;
+    font-size: 18px;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1180px;
+    width: 100%;
+}
+/*main stylse*/
+.main{
+    background:#163a24;
+}
+.header{
+    padding: 20px;
+
+}
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 153px;
+    height: 58px;
+
+}
+.nav a{
+    margin-right: 24px;
+    color: white;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: #198C36;
+}
+.nav .get-started{
+    margin-right: 0px;
+    padding: 15px 25px;
+    border-radius: 160px;
+    background: #198C36;
+    border: 1px solid #198C36;
+}
+.nav .get-started:hover{
+    border-color: white;
+    color: #198C36;
+    border-color: transparent;
+}
+.hero .container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center
+}
+.hero .container img{
+    width: 758px;
+    height: 500px;
+}
+.hero .container h1{
+    color: #FBFAF7;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 65px; 
+    margin-bottom: 18px;
+    line-height: 65px;
+}
+.hero .container p{
+    color: #fbfaf7;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    width: 475px;
+}
+
+/*card2*/
+.block .container .girls{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block .girls img{
+    width: 492px;
+    height: 510px;
+    margin-left: 70px;
+    margin-right: 90px;
+}
+.girls text{
+    display: flex;
+    width: 393.328px;
+    padding: 0px 19px 16px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 27px;
+}
+.text .footer{
+    color: #163A24;
+    font-family: Recolete;
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 54px;
+}
+
+.text .information{
+    color: #163A24;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 27px;
+}
+/*card3*/
+.block .container .boys{
+    display: flex;
+    height: 422px;
+    padding: 0px 98px 0px 98px;
+    justify-content: center;
+    align-items: center;
+    gap: 98px;
+}
+
+.boys text{
+    color: #163A24;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+}
+.text .h4{
+    color: #163A24;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 54px;
+}
+text .pages{
+    color: #163A24;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 27px;
+}
+.boys img{
+    margin-right: 35px;
+}
+
+/*bottom*/
+.mark{
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mark h1{
+    color: #163A24;
+    text-align: center;
+    font-family: Recoleta;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+    margin-top: 66px;
+}
+.mark .lotip{
+    display: flex;
+    height: 59px;
+    padding: 0px 43px 0px 43px;
+    justify-content: center;
+    align-items: center;
+    gap: 86px;
+    margin-top: 66px;
+}
+
+/*footer card/style*/
+.footer{
+    height: 568px;
+    width: 100%;
+    flex-shrink: 0;
+    background: #163A24;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-align: center;
+}
+.container_1{
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.footer-text{
+    color: #FBFAF7;
+    text-align: center;
+    font-family: Recoleta;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px; /* 112.5% */
+    margin-top: 66px;
+}
+.footer-card{
+    display: flex;
+    width: 1440px;
+    padding: 74px 130px 0px 130px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-card .footer-block{
+    width: 295px;
+    height: 254px;
+    flex-shrink: 0;
+}
+
+
+
+
+
+
+   
+
